@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": 1,
+    "userName": "ka3bora",
+    "email": "ka3bora@gmial.com",
+    "product_id": 1,
+    "quantity": 1,
+    "total": 1000
+  },
+  {
+    "user_id": 2,
+    "product_id": 3,
+    "quantity": 2,
+    "total": 2000
+  },
+  {
+    "user_id": 1,
+    "product_id": 2,
+    "quantity": 3,
+    "total": 3000
+  }
+]

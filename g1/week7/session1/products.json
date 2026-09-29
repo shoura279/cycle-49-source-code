@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air force",
+    "price": 2500,
+    "stock": 12,
+    "sellerName": "ka3bora",
+    "sellerEmail": "ka3bora@gmai.com"
+  }
+]
