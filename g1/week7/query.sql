@@ -10,7 +10,7 @@ CREATE TABLE users
     password_hash TEXT                NOT NULL,
     is_active     BOOLEAN             NOT NULL DEFAULT TRUE,
     role          VARCHAR(20)         NOT NULL DEFAULT 'customer',
-    create_at     TIMESTAMP                    DEFAULT NOW(),
+    created_at     TIMESTAMP                    DEFAULT NOW(),
     CONSTRAINT email_format CHECK ( position('@' IN email) > 1 )
 );
 
@@ -37,7 +37,7 @@ CREATE TABLE products
     price     NUMERIC(10, 2) NOT NULL CHECK ( price >= 0 ),
     stock     INT            NOT NULL DEFAULT 0 CHECK ( stock >= 0 ),
     metadata JSONB DEFAULT '{}',
-    create_at TIMESTAMP               DEFAULT NOW()
+    created_at TIMESTAMP               DEFAULT NOW()
 );
 
 -- orders table

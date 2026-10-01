@@ -45,7 +45,15 @@
     3. caching pre-calculated or frequently accessed data.-- total price of order
     4. no-sql like flexibility.
 
-* relationship types
-* join – group by - order by - limit - offset - having on
-* types of indexes
-* how to integrate with BE
+===================================================
+
+* todo session2:
+
+1. Model one-to-one, one-to-many, and many-to-many relationships using primary and foreign keys.✅
+2. Explain why transactions are needed and use `BEGIN`, `COMMIT`, and `ROLLBACK`.✅
+3. Combine related tables using `INNER JOIN` and `LEFT JOIN`.✅
+4. Create summary reports using aggregate functions, `GROUP BY`, and `HAVING`.
+5. Implement basic pagination using `LIMIT` and `OFFSET`.
+6. Choose appropriate MySQL index types and verify query plans with `EXPLAIN ANALYZE`.
+7. Connect an Express application to MySQL Using `mysql2`.
+8. Execute safe parameterized queries and transactions from Node.js.[sql-injection].
