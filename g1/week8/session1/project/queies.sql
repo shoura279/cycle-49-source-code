@@ -1,0 +1,9 @@
+SELECT *
+FROM users
+ORDER BY id DESC
+LIMIT 4;
+
+
+DELETE
+FROM users
+WHERE true;
