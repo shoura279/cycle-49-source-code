@@ -1,0 +1,11 @@
+-- DDL
+CREATE TABLE blogs
+(
+    id         INT AUTO_INCREMENT PRIMARY KEY,
+    title      VARCHAR(255) NOT NULL,
+    content    TEXT         NOT NULL,
+    user_id    INT          NOT NULL REFERENCES users (id),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    is_deleted BOOLEAN   DEFAULT FALSE
+);

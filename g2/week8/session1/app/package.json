@@ -1,0 +1,11 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch ."
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.5",
+    "pg": "^8.23.1"
+  }
+}
