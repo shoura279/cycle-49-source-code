@@ -1,0 +1,9 @@
+CREATE TABLE blogs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL REFERENCES users (id),
+    title VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL,
+    is_deleted BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW() ON UPDATE NOW()
+);
