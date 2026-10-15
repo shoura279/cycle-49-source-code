@@ -1,0 +1,6 @@
+to implement APIs:
+
+1. implement service -> repository.
+2. implement controller -> service.
+3. implement route -> controller.
+4. test.

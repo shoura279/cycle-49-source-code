@@ -47,3 +47,55 @@ password String
 CREATE TABLE users (
 id INT AUTO_INCREMENT PRIMARY KEY
 )
+
+- modular monolithic
+
+- src
+  - app
+    - auth
+      - auth.controller.js
+      - auth.service.js
+      - auth.route.js
+    - user
+      - user.controller.js
+      - user.service.js
+      - user.route.js
+    - blog
+      - blog.controller.js
+      - blog.service.js
+      - blog.route.js
+  - common
+  - server.js
+
+- micro service
+
+- src
+  - app
+    - auth
+      - auth.controller.js
+      - auth.service.js
+      - auth.route.js
+  - common
+  - server.js
+
+- src
+  - app
+    - user
+      - user.controller.js
+      - user.service.js
+      - user.route.js
+  - common
+  - server.js
+
+- src
+  - app
+    - blog
+      - blog.controller.js
+      - blog.service.js
+      - blog.route.js
+  - common
+  - server.js
+
+todo session2:
+-- global error handler
+-- es modules vs commonJs

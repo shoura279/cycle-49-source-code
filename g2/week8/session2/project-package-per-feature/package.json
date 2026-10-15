@@ -1,5 +1,5 @@
 {
-  "main": "app/server.js",
+  "main": "src/server.js",
   "scripts": {
     "start:dev": "node --watch ."
   },

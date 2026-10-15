@@ -1,5 +1,6 @@
 {
-  "main": "app/server.js",
+  "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "dev": "node --watch ."
   },
