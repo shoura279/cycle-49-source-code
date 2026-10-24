@@ -1,0 +1,11 @@
+{
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch ."
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
+  }
+}
